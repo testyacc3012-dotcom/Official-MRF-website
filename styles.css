@@ -379,6 +379,11 @@ body::before {
   color: var(--muted);
 }
 
+.perk-struck {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
 .level-price {
   display: flex;
   align-items: baseline;
