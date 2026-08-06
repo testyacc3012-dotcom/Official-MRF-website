@@ -241,37 +241,15 @@ body::before {
   margin: 0 auto;
 }
 
-.status-line {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  font-size: 11px;
-  letter-spacing: 0.2em;
+.eyebrow-hero {
+  margin-bottom: 18px;
+}
+
+.hero-note {
+  font-size: 12px;
+  letter-spacing: 0.06em;
   color: var(--muted);
-  margin-bottom: 28px;
-  padding: 7px 14px;
-  border: 1px solid var(--line-bright);
-  border-radius: 20px;
-}
-
-.status-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--teal);
-  box-shadow: 0 0 8px var(--teal);
-  animation: flicker 3.6s ease-in-out infinite;
-}
-
-.status-word { color: var(--teal); }
-
-@keyframes flicker {
-  0%, 100% { opacity: 1; }
-  4%  { opacity: 0.3; }
-  6%  { opacity: 1; }
-  46% { opacity: 1; }
-  48% { opacity: 0.4; }
-  50% { opacity: 1; }
+  margin: 18px 0 0;
 }
 
 .hero-title {
@@ -340,21 +318,6 @@ body::before {
 .level-iii {
   background: var(--bg-panel-2);
   border-color: var(--amber-dim);
-}
-
-.level-ribbon {
-  position: absolute;
-  top: 0;
-  right: 24px;
-  transform: translateY(-50%);
-  background: var(--amber);
-  color: #14110a;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  padding: 6px 12px;
-  border-radius: var(--radius);
 }
 
 .level-badge {
